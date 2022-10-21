@@ -1,0 +1,42 @@
+{
+  "name": "TrendIT",
+  "version": "0.0.1",
+  "description": "TrendIT pjt",
+  "productName": "TrendIT",
+  "author": "정승욱 <tmddnrdl333@naver.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "chart.js": "^3.9.1",
+    "d3": "^7.6.1",
+    "d3-cloud": "^1.2.5",
+    "jquery": "^3.6.1",
+    "node": "^18.9.0",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-chartjs": "^4.1.1",
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-router": "^4.0.0",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
